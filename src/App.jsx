@@ -1,5 +1,4 @@
 import Box from "@mui/material/Box";
-import Header from "./header/Header.jsx";
 import { Container, Tab, Tabs } from "@mui/material";
 import { useState } from "react";
 import AboutMe from "./pages/aboutme";
@@ -14,7 +13,6 @@ function App() {
 
     return (
         <Box>
-            <Header/>
             <Container maxWidth="lg" sx={{ mt: 4 }}>
                 <Tabs 
                     value={currentTab} 

@@ -1,6 +1,7 @@
 import Box from "@mui/material/Box";
 import Education from "./sections/Education.jsx";
 import WorkExperience from "./sections/WorkExperience.jsx";
+import Header from "./sections/Header.jsx";
 
 const AboutMe = () => {
     return (
@@ -11,6 +12,7 @@ const AboutMe = () => {
                 gap: 8,
             }}
         >
+            <Header />
             <WorkExperience id="work-experience"/>
             <Education/>
         </Box>
