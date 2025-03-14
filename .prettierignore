@@ -1,0 +1,7 @@
+node_modules
+public
+README.md
+vite.config.js
+pnpm-lock.yaml
+package.json
+index.html

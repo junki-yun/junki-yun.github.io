@@ -26,7 +26,7 @@ const baseData = [
     {
         company: "NHN Cloud",
         startDate: new Date('2022-01-03'),
-        endDate: new Date('2025-02-04'),        
+        endDate: new Date('2025-02-04'),     
         skills: [
             [Java, TypeScript, Go],
             [SpringBoot, Gradle, React, Vue2],
