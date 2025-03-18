@@ -1,0 +1,8 @@
+{
+	"name": "junki-yun.github.io",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {}
+	},
+	"postCreateCommand": "pnpm install"
+}
